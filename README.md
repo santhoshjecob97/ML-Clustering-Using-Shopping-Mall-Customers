@@ -6,9 +6,6 @@ Certainly! Here's a professional and complete **`README.md`** file for your clus
 
 ````markdown
 # 🧠 Mall Customers Clustering Analysis
-
-This project applies and compares **9 clustering algorithms** on the [Mall Customers dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial). The goal is to segment customers based on their **annual income** and **spending score**, and identify the best clustering method using **Silhouette Score**.
-
 ---
 
 ## 📁 Dataset
@@ -44,7 +41,8 @@ The following unsupervised clustering algorithms are implemented:
 
 ## 📈 Evaluation Metric
 
-We use the **Silhouette Score** to evaluate cluster quality. It measures how well clusters are separated and how cohesive they are internally. A higher score is better.
+We use the **Silhouette Score** to evaluate cluster quality.
+It measures how well clusters are separated and how cohesive they are internally. A higher score is better.
 
 ```python
 from sklearn.metrics import silhouette_score
